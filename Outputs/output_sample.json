@@ -1,35 +1,35 @@
 {
-  "connection_key": "request",
-  "result": true,
-  "redis_key": "abcdefg",
-  "filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
-  "api_status_code": 200,
-  "runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
-  "business_partner": 201,
-  "service_label": "PAYMENT_REQUISITION",
-  "Message": {
-      "Header": {
-          "Payer": 101,
-          "PayerPaymentDate": "2022-11-30",
-          "PayerPaymentRequisitionID": 1,
-          "transactionCode": null,
-          "paymentApplicantCode": "1234567890",
-          "paymentApplicantName": "ヤマダショウテン",
-          "paymentDate": "2022-11-30",
-          "payingBankNo": "0001",
-          "payingBankName": "みずほ銀行",
-          "payingBranchNo": "001",
-          "payingBranchName": "東京営業部",
-          "payingDepositType": "01",
-          "payingAccountNo": "1234567",
-          "totalNumber": null,
-          "totalAmount": null
-      }
-  },
-  "api_schema": "DPFMPaymentRequisitionCreates",
-  "accepter": [
-      "Header"
-  ],
-  "order_id": null,
-  "deleted": false
+    "connection_key": "request",
+    "result": true,
+    "redis_key": "abcdefg",
+    "filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+    "api_status_code": 200,
+    "runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+    "business_partner": 201,
+    "service_label": "PAYMENT_REQUISITION",
+    "Message": {
+        "Header": {
+            "Payer": 101,
+            "PayerPaymentDate": "2022-11-30",
+            "PayerPaymentRequisitionID": 1,
+            "transactionCode": null,
+            "paymentApplicantCode": "1234567890",
+            "paymentApplicantName": "ヤマダショウテン",
+            "paymentDate": "2022-11-30",
+            "payingBankNo": "0001",
+            "payingBankName": "みずほ銀行",
+            "payingBranchNo": "001",
+            "payingBranchName": "東京営業部",
+            "payingDepositType": "01",
+            "payingAccountNo": "1234567",
+            "totalNumber": null,
+            "totalAmount": null
+        }
+    },
+    "api_schema": "DPFMPaymentRequisitionCreates",
+    "accepter": [
+        "Header"
+    ],
+    "order_id": null,
+    "deleted": false
 }
